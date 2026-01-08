@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # CONFIGURATION
-FORWARD_BOT_TOKEN = os.environ.get('FORWARD_BOT_TOKEN')
+FORWARD_BOT_TOKEN = os.environ.get('BOT_TOKEN')
 MASTER_CHANNEL = os.environ.get('MASTER_CHANNEL')
 ADMIN_ID = os.environ.get('ADMIN_ID')
 BATCH_SIZE = int(os.environ.get('BATCH_SIZE', '20'))
